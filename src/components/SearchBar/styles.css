@@ -1,0 +1,31 @@
+.dsc-search-bar {
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+}
+
+.dsc-search-bar button,
+.dsc-search-bar input {
+  border: 1px solid var(--car-color-searchbar-border);
+}
+
+.dsc-search-bar input {
+  width: calc(100% - 80px);
+  border-right: none;
+  padding: 0 10px;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.dsc-search-bar input:focus {
+  outline: none;
+}
+
+.dsc-search-bar input::placeholder {
+  color: var(--car-color-searchbar-font-placeholder);
+}
+
+.car-btn-search {
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}

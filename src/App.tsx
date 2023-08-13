@@ -1,7 +1,7 @@
-import HeaderClient from "./components/HeaderClient";
+import ProductDetails from "./routes/ProductDetails";
 
 export default function App() {
   return (
-    <HeaderClient />
+    <ProductDetails />
   );
 }

@@ -9,6 +9,7 @@
   --car-color-btn-bg: #00285f;
   --car-color-btn-font: #ffffff;
   --car-color-searchbar-font-placeholder: #a7a7a7;
+  --car-color-searchbar-border: #a7a7a7;
 }
 
 * {
@@ -30,10 +31,24 @@ header {
 nav h1 {
   color: var(--car-color-header-font);
   font-size: 24px;
+  padding: 20px;
 }
 
-.car-header-container {
+.car-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+#car-section {
+  margin-top: 40px;
+}
+
+.dsc-button {
+  width: 77px;
+  background-color: var(--car-color-btn-bg);
+  color: var(--car-color-btn-font);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
