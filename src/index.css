@@ -1,1 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+:root {
+  --car-color-header-bg: #f78b00;
+  --car-color-header-font: #00285f;
+  --car-color-card-bg: #ededed;
+  --car-color-card-font-description: #585858;
+  --car-color-card-font-name: #000000;
+  --car-color-btn-bg: #00285f;
+  --car-color-btn-font: #ffffff;
+  --car-color-searchbar-font-placeholder: #a7a7a7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: var(--car-color-header-bg);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 20px;
+}
+
+nav h1 {
+  color: var(--car-color-header-font);
+  font-size: 24px;
+}
+
+.car-header-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
