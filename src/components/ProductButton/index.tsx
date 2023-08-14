@@ -1,3 +1,5 @@
+import './styles.css';
+
 export default function ProductButton() {
-  return <div className="car-button car-btn-blue">Comprar</div>;
+  return <div className="car-button">Comprar</div>;
 }

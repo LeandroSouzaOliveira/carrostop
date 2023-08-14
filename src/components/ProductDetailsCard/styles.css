@@ -24,18 +24,3 @@
   color: var(--car-color-card-font-description);
   margin-bottom: 38px;
 }
-
-.car-btn-blue {
-  width: 260px;
-  border: none;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-  margin-bottom: 15px;
-  background-color: var(--car-color-btn-bg);
-  color: var(--car-color-btn-font);
-}
