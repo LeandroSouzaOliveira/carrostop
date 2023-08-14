@@ -16,6 +16,12 @@ export default function ProductDetails() {
             <ProductDetailsCard />
             <ProductDetailsCard />
             <ProductDetailsCard />
+            <ProductDetailsCard />
+            <ProductDetailsCard />
+            <ProductDetailsCard />
+            <ProductDetailsCard />
+            <ProductDetailsCard />
+            <ProductDetailsCard />
           </div>
         </section>
       </main>
