@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 :root {
+  --car-color-body-bg: #ffffff;
   --car-color-header-bg: #f78b00;
   --car-color-header-font: #00285f;
   --car-color-card-bg: #ededed;
@@ -19,35 +20,25 @@
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  background-color: var(--car-color-header-bg);
-  height: 70px;
-  display: flex;
-  align-items: center;
-  text-align: left;
-  padding: 20px;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
 
-nav h1 {
-  color: var(--car-color-header-font);
-  font-size: 24px;
-  padding: 20px;
+html,
+body {
+  background-color: var(--car-color-body-bg);
 }
 
 .car-container {
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
-}
-
-#car-section {
-  margin-top: 40px;
 }
 
 .car-button {
   height: 40px;
-  background-color: var(--car-color-btn-bg);
-  color: var(--car-color-btn-font);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;

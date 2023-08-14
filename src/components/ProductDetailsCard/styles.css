@@ -1,61 +1,26 @@
-.car-btn-blue {
-  width: 260px;
-  border: none;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-  margin-bottom: 15px;
-}
-
-.car-product-cards {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
-}
-
 .car-card {
   border-radius: 10px;
   background-color: var(--car-color-card-bg);
   margin: 20px 10px;
-  padding: 10px;
-}
-
-.car-card-bottom {
-  margin-bottom: 40px;
-}
-
-.car-card-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.car-card-img img {
-  max-width: 100%;
-  height: auto;
-}
-
-.car-card-items {
+  padding: 15px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
 }
 
-.car-card-items h2 {
-  font-size: 18px;
-  text-align: center;
+.car-card img {
+  width: 220px;
+  margin-bottom: 8px;
 }
 
-.car-card-items p {
+.car-card h3 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.car-card p {
   font-size: 14px;
   color: var(--car-color-card-font-description);
-  font-style: italic;
-  padding: 20px;
-  text-align: left;
+  margin-bottom: 38px;
 }

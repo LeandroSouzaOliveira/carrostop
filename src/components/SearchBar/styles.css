@@ -1,32 +1,32 @@
-.dsc-search-bar {
-  height: 40px;
-  padding: 0 20px;
+.car-search-bar {
   display: flex;
 }
 
-.dsc-search-bar button,
-.dsc-search-bar input {
+.car-form-control {
+  height: 40px;
+  width: 100%;
+}
+
+.car-search-bar input {
+  padding: 0 15px;
   border: 1px solid var(--car-color-searchbar-border);
-}
-
-.dsc-search-bar input {
-  width: calc(100% - 80px);
-  border-right: none;
-  padding: 0 10px;
-  border-radius: 4px 0 0 4px;
+  border-radius: 5px 0 0 5px;
   font-size: 14px;
+  border-right: none;
 }
 
-.dsc-search-bar input:focus {
+.car-search-bar input:focus {
   outline: none;
 }
 
-.dsc-search-bar input::placeholder {
+.car-search-bar input::placeholder {
   color: var(--car-color-searchbar-font-placeholder);
 }
 
 .car-btn-search {
   width: 77px;
-  border-left: none;
-  border-radius: 0 4px 4px 0;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: var(--car-color-btn-bg);
+  color: var(--car-color-btn-font);
 }
