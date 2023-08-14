@@ -37,14 +37,8 @@ body {
   margin: 0 auto;
 }
 
-#car-section {
-  margin-top: 40px;
-}
-
 .car-button {
   height: 40px;
-  background-color: var(--car-color-btn-bg);
-  color: var(--car-color-btn-font);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
