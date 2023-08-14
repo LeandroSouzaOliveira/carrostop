@@ -31,24 +31,9 @@ body {
   background-color: var(--car-color-body-bg);
 }
 
-header {
-  background-color: var(--car-color-header-bg);
-  height: 70px;
-  display: flex;
-  align-items: center;
-  text-align: left;
-  padding: 20px;
-}
-
-nav h1 {
-  color: var(--car-color-header-font);
-  font-size: 24px;
-  padding: 20px;
-}
-
 .car-container {
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
 }
 
