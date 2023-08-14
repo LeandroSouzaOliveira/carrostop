@@ -44,11 +44,12 @@ nav h1 {
   margin-top: 40px;
 }
 
-.dsc-button {
-  width: 77px;
+.car-button {
+  height: 40px;
   background-color: var(--car-color-btn-bg);
   color: var(--car-color-btn-font);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+  cursor: pointer;
 }
